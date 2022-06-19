@@ -129,26 +129,12 @@ function commander(cmd) {
     case "banner":
       loopLines(banner, "", 80);
       break;
-    // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
-      break;
-    case "linkedin":
-      addLine("Opening LinkedIn...", "color2", 0);
-      newTab(linkedin);
-      break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
-      break;
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
+      break;
+    case "netflix":
+      addLine("I lied, I don't have Netflix. Now put your white hat on, we're gonna hack NASA", "color2", 80);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
