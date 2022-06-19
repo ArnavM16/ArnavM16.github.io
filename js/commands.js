@@ -43,6 +43,7 @@ help = [
   '<span class="command">help</span>           You obviously already know what this does',
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
+  '<span class="command">netflix</span>        Watch Netflix with me',
   '<span class="command">banner</span>         Display the header',
   '<span class="command">secret</span>         Find the password',
   "<br>",
