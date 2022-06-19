@@ -1,8 +1,4 @@
-var youtube = "https://www.youtube.com/fknight/";
-var twitter = "https://www.twitter.com/forrestpknight/";
-var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
+var password = "pass";
 var github = "https://github.com/ArnavM16/";
 var email = 'mailto:m16.arnav@gmail.com';
 
