@@ -4,7 +4,7 @@ var password = "fkcodes";
 var linkedin = "https://www.linkedin.com/in/forrestpknight/";
 var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/ArnavM16/";
-var email = 'mailto:forrest@fkcodes.com';
+var email = 'mailto:m16.arnav@gmail.com';
 
 whois = [
   "<br>",
