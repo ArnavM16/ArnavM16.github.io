@@ -5,7 +5,7 @@ var email = 'mailto:m16.arnav@gmail.com';
 whois = [
   "<br>",
   "Hey, I'm Arnav!👋",
-  "I'm an aspiring software developer👨‍💻, who builds engaging websites like this one.",
+  "I'm an aspiring software Engineer👨‍💻, who builds engaging websites like this one.",
   "I have distractingly many intrest",
   "Currently learning The Rust🦀 programming language.",
   "<br>"
