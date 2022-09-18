@@ -1,6 +1,8 @@
 var password = "pass";
 var github = "https://github.com/ArnavM16/";
 var email = 'mailto:m16.arnav@gmail.com';
+let xkcd_url = "https://www.xkcd.com/" + Math.floor((Math.random() * 2673) +1) ;
+
 
 whois = [
   "<br>",
@@ -46,6 +48,7 @@ help = [
   '<span class="command">netflix</span>        Watch Netflix with me',
   '<span class="command">banner</span>         Display the header',
   '<span class="command">secret</span>         Find the password',
+  'span class="command">xkcd</span>            Random xkcd comic',
   "<br>",
 ];
 
@@ -71,3 +74,4 @@ secret = [
     '<span class="command">sudo</span>           Only use if you\'re admin',
     "<br>"
   ];
+

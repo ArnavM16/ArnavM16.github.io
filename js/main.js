@@ -82,6 +82,13 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
+      case "xkcd":
+      newTab(xkcd_url);
+      function timedRefresh(timeoutPeriod) {
+        setTimeout("location.reload(true);",timeoutPeriod);
+      }
+      window.onload = timedRefresh(1000);
+      break;
     case "whois":
       loopLines(whois, "color2 margin", 80);
       break;
@@ -134,7 +141,7 @@ function commander(cmd) {
       newTab(github);
       break;
     case "netflix":
-      addLine("I lied, I don't have Netflix. Now put your white hat on, we're gonna hack NASA", "color2", 80);
+      addLine("I lied, I don't have Netflix. Now put your white hat on, we're gonna hack NASA.", "color2", 80);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
