@@ -48,7 +48,7 @@ help = [
   '<span class="command">netflix</span>        Watch Netflix with me',
   '<span class="command">banner</span>         Display the header',
   '<span class="command">secret</span>         Find the password',
-  'span class="command">xkcd</span>            Random xkcd comic',
+  '<span class="command">xkcd</span>            Random xkcd comic',
   "<br>",
 ];
 
