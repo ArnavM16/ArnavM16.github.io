@@ -84,6 +84,7 @@ function commander(cmd) {
       break;
       case "xkcd":
       newTab(xkcd_url);
+      //reload the page to get random xkcd comic ID
       function timedRefresh(timeoutPeriod) {
         setTimeout("location.reload(true);",timeoutPeriod);
       }
